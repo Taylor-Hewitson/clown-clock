@@ -1,4 +1,5 @@
 body{
+    background-image: cover;
     background-image: radial-gradient(circle at center,white, black, white, black, orange,yellow,green,blue,indigo,violet); 
 }
 
@@ -13,20 +14,17 @@ section{
     z-index: 1;
 }
 
-.minute-hand{
+.min-hand{
     position: absolute;
     z-index: 2;
-    transform-origin: 50% 95%;
 }
 
 .hour-hand{
     position: absolute;
     z-index: 3;
-    transform-origin: 50% 95%;
 }
 
 .second-hand{
     position: absolute;
     z-index: 4;
-    transform-origin: 45% 95%;
 }
