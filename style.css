@@ -1,0 +1,24 @@
+body{
+    background-image: radial-gradient(circle at center,white, black, white, black, orange,yellow,green,blue,indigo,violet); 
+}
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.clock-face{
+    position: relative;
+    z-index: 1;
+}
+
+.minute-hand{
+    position: absolute;
+    z-index: 3;
+}
+
+.hour-hand{
+    position: absolute;
+    z-index: 4;
+}
