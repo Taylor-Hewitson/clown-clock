@@ -17,6 +17,7 @@ section{
 .min-hand{
     position: absolute;
     z-index: 2;
+    
 }
 
 .hour-hand{
