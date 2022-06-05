@@ -7,7 +7,7 @@ function clockInit() {
     document.getElementById("second"),
   ];
 
-  var hour = time[0] * 30 + (time[1] * 6) / 2;
+  var hour = time[0] * 30 + (time[1] * 6) / 12;
 
   clockDivs[0].style.transform = "rotate(" + hour + "deg)";
   clockDivs[1].style.transform = "rotate(" + time[1] + "deg)";
